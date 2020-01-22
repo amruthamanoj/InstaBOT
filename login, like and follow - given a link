@@ -4,7 +4,7 @@ from time import sleep
 username = 'YOUR USERNAME'
 pw = 'YOUR PASSWORD'
 
-webdriver = webdriver.Chrome('/Users/apple/Desktop/py/chromedriver')
+webdriver = webdriver.Chrome('/Users/apple/Desktop/py/chromedriver') #path to your chrome driver
 webdriver.get("https://instagram.com")
 sleep(3)
 webdriver.find_element_by_xpath("//a[contains(text(), 'Log in')]")\
