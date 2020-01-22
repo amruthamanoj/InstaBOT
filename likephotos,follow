@@ -49,5 +49,5 @@ def likephoto(self, hashtag):
                     time.sleep(1)
             except Exception as e:
                 time.sleep(2)
-            unique_photos -= 1
+            tolikephotos -= 1
 
